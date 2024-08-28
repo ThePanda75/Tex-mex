@@ -1,0 +1,140 @@
+.explorezLesUsa {
+  position: relative;
+  z-index: 1;
+}
+.explorezLesUsaWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.spcialitsTexMex {
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  font-size: var(--font-size-77xl);
+  font-weight: 400;
+  font-family: var(--font-sancreek);
+  color: var(--color-lightsalmon-300);
+  white-space: pre-wrap;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 2px 0 0 rgba(129, 21, 21, 0.83), 0 2px 0 rgba(129, 21, 21, 0.83),
+    -2px 0 0 rgba(129, 21, 21, 0.83), 0-2px 0 rgba(129, 21, 21, 0.83);
+  z-index: 1;
+  margin: -27px 0 0;
+}
+.orderHistory,
+.orderHistoryWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.orderHistory {
+  flex: 1;
+  flex-direction: column;
+}
+.orderHistoryWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-55xl);
+  box-sizing: border-box;
+}
+.produitsChild {
+  height: 72px;
+  width: 1008px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-peachpuff);
+  display: none;
+  max-width: 100%;
+}
+.grilladesViandes {
+  height: 22px;
+  flex: 1;
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.produits {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-peachpuff);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-15xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-sancreek);
+}
+.frameParent,
+.pcVersionInner,
+.produits {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.pcVersionInner {
+  width: 1152px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-53xl) var(--padding-15xl-1);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-white);
+  font-family: var(--font-scheherazade);
+}
+@media screen and (max-width: 1200px) {
+  .pcVersionInner {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .explorezLesUsa {
+    font-size: var(--font-size-17xl);
+  }
+  .spcialitsTexMex {
+    font-size: var(--font-size-29xl);
+  }
+  .orderHistoryWrapper {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .grilladesViandes {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .explorezLesUsa {
+    font-size: var(--font-size-8xl);
+  }
+  .spcialitsTexMex {
+    font-size: var(--font-size-10xl);
+  }
+  .grilladesViandes {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,226 @@
+.reservationButtonChild {
+  align-self: stretch;
+  width: 323px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.reservationEnLigne {
+  position: relative;
+  z-index: 1;
+}
+.buttons,
+.reservationButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.reservationButton {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-300);
+  flex-direction: row;
+  padding: 0 var(--padding-10xl) 0 var(--padding-11xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttons {
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+}
+.ullpistol {
+  font-size: var(--font-size-21xl);
+}
+.cullpistol {
+  height: 76px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cullpistolWrapper {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-40xl) 0 var(--padding-39xl);
+  box-sizing: border-box;
+}
+.avenueLincoln17000 {
+  position: relative;
+  font-size: var(--font-size-7xl);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.aEmporterButtonChild,
+.frameParent {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  font-size: var(--font-size-26xl);
+  color: var(--color-white);
+}
+.aEmporterButtonChild {
+  align-self: stretch;
+  width: 323px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-400);
+  border: 2px solid var(--color-gray-300);
+  display: none;
+}
+.aEmporterButton,
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aEmporterButton {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-400);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  padding: 0 var(--padding-31xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.notification {
+  gap: var(--gap-22xl);
+}
+.duLundiAu,
+.soireesATheme {
+  position: relative;
+  line-height: 44px;
+  z-index: 3;
+}
+.soireesATheme {
+  width: 338px;
+  line-height: 37px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.soireesAThemeEvenementsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-45xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-7xl);
+}
+.duLundiAuSamediDe18h01Parent,
+.frameWrapper,
+.soireesAThemeEvenementsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.duLundiAuSamediDe18h01Parent {
+  width: 480px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+  box-sizing: border-box;
+  margin-top: -26px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.notificationParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pcVersionInner {
+  width: 1171px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-lightsalmon-100);
+  font-family: var(--font-scheherazade);
+}
+@media screen and (max-width: 1200px) {
+  .notification {
+    flex-wrap: wrap;
+  }
+  .pcVersionInner {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cullpistol,
+  .duLundiAu {
+    font-size: var(--font-size-13xl);
+  }
+  .duLundiAu {
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .notification {
+    gap: var(--gap-xl);
+  }
+  .soireesAThemeEvenementsWrapper {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cullpistol {
+    font-size: var(--font-size-5xl);
+  }
+  .cullpistolWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .avenueLincoln17000 {
+    font-size: var(--font-size-2xl);
+  }
+  .aEmporterButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .duLundiAu {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .soireesATheme {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+}

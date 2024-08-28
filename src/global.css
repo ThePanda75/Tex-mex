@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Sancreek:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-scheherazade: Scheherazade;
+  --font-sancreek: Sancreek;
+
+  /* font sizes */
+  --font-size-7xl: 26px;
+  --font-size-2xl: 21px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-9xl: 28px;
+  --font-size-26xl: 45px;
+  --font-size-lgi: 19px;
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+  --font-size-8xl: 27px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: rgba(0, 0, 0, 0.2);
+  --color-gray-200: rgba(0, 0, 0, 0.08);
+  --color-gray-300: rgba(255, 255, 255, 0.6);
+  --color-gray-400: rgba(37, 36, 36, 0.2);
+  --color-lightsalmon-100: #f2a979;
+  --color-lightsalmon-200: rgba(242, 169, 121, 0.83);
+  --color-lightsalmon-300: rgba(242, 169, 121, 0.89);
+  --color-peachpuff: rgba(237, 206, 175, 0.15);
+  --color-rosybrown-100: #a0816e;
+  --color-rosybrown-200: #875a4e;
+  --color-tan-100: #ddac8f;
+  --color-tan-200: #c7a997;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-22xl: 41px;
+  --gap-xl: 20px;
+  --gap-36xl: 55px;
+  --gap-8xl: 27px;
+  --gap-11xs: 2px;
+  --gap-37xl: 56px;
+  --gap-9xl: 28px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-6xl: 25px;
+  --padding-45xl: 64px;
+  --padding-13xl: 32px;
+  --padding-lg: 18px;
+  --padding-31xl: 50px;
+  --padding-5xs: 8px;
+  --padding-40xl: 59px;
+  --padding-39xl: 58px;
+  --padding-10xl: 29px;
+  --padding-11xl: 30px;
+  --padding-53xl: 72px;
+  --padding-15xl-1: 34.1px;
+  --padding-17xl: 36px;
+  --padding-base: 16px;
+  --padding-15xl: 34px;
+  --padding-55xl: 74px;
+  --padding-18xl: 37px;
+  --padding-9xs: 4px;
+  --padding-2xs-1: 10.1px;
+  --padding-10xs: 3px;
+  --padding-7xs: 6px;
+  --padding-4xs: 9px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-3xs: 10px;
+}
